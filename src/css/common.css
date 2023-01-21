@@ -16,3 +16,23 @@ img {
   display: block;
   max-width: 100%;
 }
+.timer {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 20px;
+}
+#datetime-picker {
+  padding: 3px 5px;
+  margin-left: 10px;
+}
+button[data-start] {
+  padding: 3px 10px;
+}
