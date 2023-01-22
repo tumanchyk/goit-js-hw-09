@@ -44,7 +44,7 @@ function onBtnStart(){
     hoursEl.textContent = addLeadingZero(`${hours}`)        
     minutesEl.textContent = addLeadingZero(`${minutes}`)        
     secondsEl.textContent = addLeadingZero(`${seconds}`)  
-    if (time <= 0) {
+    if (time <= 1000) {
         clearInterval(idSetInterval);
         return Notify.success('The time has come!');
 
